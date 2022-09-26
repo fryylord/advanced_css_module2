@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+a {
+  color:#000000
+}
+
 body {
     background-color: #bec2dc;
 }
@@ -51,26 +55,26 @@ h2 {
     margin-left: 25px;
 }
 
-a:link {
+.topnav :link {
     color: #18e2e2;
     background-color: transparent;
     text-decoration: thick underline;
     border-bottom: 5px #18e2e2;
   }
   
-a:visited {
+.topnav :visited {
     color: pink;
     background-color: transparent;
     text-decoration: thick underline;
   }
 
-a:hover {
+.topnav :hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
   }
   
-a:active {
+.topnav :active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
@@ -175,26 +179,26 @@ aside {
   border-right-width: 10px;
 }
 
-a .phone .email .github {
+.bottomnav {
   color: #000000;
   background-color: transparent;
   text-decoration: thick underline;
   border-bottom: 5px #000000;
 }
 
-a .phone .email .github :visited {
+.bottomnav :visited {
   color: pink;
   background-color: transparent;
   text-decoration: thick underline;
 }
 
-a .phone .email .github :hover {
+.bottomnav :hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a .phone .email .github :active {
+.bottomnav :active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
