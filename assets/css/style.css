@@ -77,56 +77,32 @@ a:active {
     background-position: center;
 }
 
-.card1 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    border: 15px solid black;
-  }
-  
-  .card1 header {
-    width: 600px;
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-    text-align: center;
-    box-align: right;
-    position: relative;
-  }
-  
-  .card1 img {
-    width: 100%;
-    min-width: 400px;
-  }
+.dim {
+  opacity: 0.5}
 
-  .card2 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    border: 15px solid black;
-  }
-  
-  .card2 header {
-    width: 600px;
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-    text-align: center;
-    box-align: right;
-    position: relative;
-  }
-  
-  .card2 img {
-    width: 100%;
-    min-width: 400px;
-  }
+.dim:hover {
+  opacity: 1
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.card-column {
+  flex: 1 0 100%;
+  display: inline-flex;
+  padding: 1.5rem;
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  position: absolute;
+  margin-top: 100px;
+  background-color: #18e2e2;
+  opacity: 1;
+}
