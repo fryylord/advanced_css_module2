@@ -162,18 +162,6 @@ a:active {
   margin-left: 25px;
 }
 
-.phone .email .github {
-    color: #040808;
-    background-color: transparent;
-    text-decoration: thick underline;
-    border-bottom: 5px #e218c0;
-  }
-  
-.visited {
-    color: rgb(107, 10, 26);
-    background-color: transparent;
-    text-decoration: thick underline;
-  }
 
 p {
   margin-top: -125px;
@@ -187,33 +175,26 @@ aside {
   border-right-width: 10px;
 }
 
-.phone .email .github {
-  color: #040808;
-  background-color: transparent;
-  text-decoration: thick underline;
-  border-bottom: 5px #e218c0;
-}
-
-.phone .email .github {
+a .phone .email .github {
   color: #000000;
   background-color: transparent;
   text-decoration: thick underline;
   border-bottom: 5px #000000;
 }
 
-.phone .email .github :visited {
+a .phone .email .github :visited {
   color: pink;
   background-color: transparent;
   text-decoration: thick underline;
 }
 
-.phone .email .github :hover {
+a .phone .email .github :hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
 
-.phone .email .github :active {
+a .phone .email .github :active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
