@@ -26,6 +26,10 @@ h1 {
     text-align: right;
 }
 
+h2 {
+    align: center;
+}
+
 .header nav {
     padding-top: 30px;
     margin-right: 20px;
@@ -76,3 +80,57 @@ a:active {
     background-size: cover;
     background-position: center;
 }
+
+.card1 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    border: 15px solid black;
+  }
+  
+  .card1 header {
+    width: 600px;
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+    text-align: center;
+    box-align: right;
+    position: relative;
+  }
+  
+  .card1 img {
+    width: 100%;
+    min-width: 400px;
+  }
+
+  .card2 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    border: 15px solid black;
+  }
+  
+  .card2 header {
+    width: 600px;
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+    text-align: center;
+    box-align: right;
+    position: relative;
+  }
+  
+  .card2 img {
+    width: 100%;
+    min-width: 400px;
+  }
