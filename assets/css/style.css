@@ -27,10 +27,10 @@ h1 {
 }
 
 h2 { 
-  display: block;
+  display: inline-block;
   font-size: 40px; 
   padding: 10px 15px;  
-  margin: auto;
+  margin: 1px;
   text-align: left;
 }
 
@@ -124,7 +124,9 @@ a:active {
 
 .content {
   position: flex;
-  text-align: right;
+  max-width: 80%;
+  display: block;
+  margin: auto;
 }
 
 #contact_me {
@@ -134,5 +136,85 @@ a:active {
 
 #about_me {
   margin-left: 500px;
+  margin-bottom: 100px;
 }
 
+.footer {
+  padding: 20px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-content: right;
+}
+
+.footer nav {
+  padding-top: 30px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.footer nav ul {
+  list-style-type: none;
+}
+
+.footer nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.phone .email .github {
+    color: #040808;
+    background-color: transparent;
+    text-decoration: thick underline;
+    border-bottom: 5px #e218c0;
+  }
+  
+.visited {
+    color: rgb(107, 10, 26);
+    background-color: transparent;
+    text-decoration: thick underline;
+  }
+
+p {
+  margin-top: -125px;
+}
+
+aside {
+  flex: 1;
+  background-color: #bec2dc;
+  padding: 80px;
+  text-align: left;
+  border-right-width: 10px;
+}
+
+.phone .email .github {
+  color: #040808;
+  background-color: transparent;
+  text-decoration: thick underline;
+  border-bottom: 5px #e218c0;
+}
+
+.phone .email .github {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: thick underline;
+  border-bottom: 5px #000000;
+}
+
+.phone .email .github :visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: thick underline;
+}
+
+.phone .email .github :hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.phone .email .github :active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
