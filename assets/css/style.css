@@ -26,6 +26,16 @@ h1 {
     text-align: right;
 }
 
+h2 { 
+  display: inline-block;
+  background-color: #18e2e2;
+  font-size: 40px; 
+  padding: 10px 15px; 
+  border: 10px solid #18e2e2; 
+  margin: 0px;
+  text-align: left;
+}
+
 .header nav {
     padding-top: 30px;
     margin-right: 20px;
@@ -92,12 +102,13 @@ a:active {
   margin-right: -1.5rem;
 }
 
-.card-column {
+.card {
   flex: 1 0 100%;
   display: inline-flex;
   padding: 1.5rem;
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
+  border: 100px;
 }
 
 .card-header {
@@ -106,3 +117,17 @@ a:active {
   background-color: #18e2e2;
   opacity: 1;
 }
+
+.content {
+  position: relative;
+  height: 600px;
+  width: 700px;
+  text-align: right;
+  margin-left: 500px;
+}
+
+#contact_me {
+  position: relative;
+  text-align: left;
+}
+
