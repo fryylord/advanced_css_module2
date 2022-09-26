@@ -27,12 +27,11 @@ h1 {
 }
 
 h2 { 
-  float left: left;
-  display: flex;
+  display: block;
   font-size: 40px; 
-  padding: 10px 15px; 
+  padding: 10px 15px;  
   margin: auto;
-  text-align: left !important;
+  text-align: left;
 }
 
 .header nav {
