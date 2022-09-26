@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #bec2dc;
 }
 
 .header {
@@ -17,10 +17,10 @@ body {
 
 h1 { 
     display: inline-block;
-    background-color: #18ace2;
+    background-color: #18e2e2;
     font-size: 40px; 
     padding: 10px 15px; 
-    border: 10px solid #18ace2; 
+    border: 10px solid #18e2e2; 
     margin: 10px;
     text-align: right;
 }
@@ -40,4 +40,38 @@ h1 {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+a:link {
+    color: #18e2e2;
+    background-color: transparent;
+    text-decoration: thick underline;
+    border-bottom: 5px #18e2e2;
+  }
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: thick underline;
+  }
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.banner {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/bluebackground.jpg");
+    background-size: cover;
+    background-position: center;
 }
