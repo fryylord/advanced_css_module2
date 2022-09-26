@@ -27,13 +27,12 @@ h1 {
 }
 
 h2 { 
-  display: inline-block;
-  background-color: #18e2e2;
+  float left: left;
+  display: flex;
   font-size: 40px; 
   padding: 10px 15px; 
-  border: 10px solid #18e2e2; 
-  margin: 0px;
-  text-align: left;
+  margin: auto;
+  text-align: left !important;
 }
 
 .header nav {
@@ -109,7 +108,13 @@ a:active {
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
   border: 100px;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+  margin-left: 500px;
 }
+
 
 .card-header {
   position: absolute;
@@ -119,15 +124,16 @@ a:active {
 }
 
 .content {
-  position: relative;
-  height: 600px;
-  width: 700px;
+  position: flex;
   text-align: right;
-  margin-left: 500px;
 }
 
 #contact_me {
   position: relative;
   text-align: left;
+}
+
+#about_me {
+  margin-left: 500px;
 }
 
