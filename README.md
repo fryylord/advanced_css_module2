@@ -3,7 +3,8 @@
 
 This site has been created as the landing page for my personal portfolio to showcase my various projects throughout the KU Coding Bootcamp and any other side projects I undertake.  Eventually it will have links to the all the projects I have completed, rather than having placeholders for the majority of the objects.  
 
-![website screenshot]()
+![](./assets/images/topscreenshot.jpg)
+![](./assets/images/bottomscreenshot.jpg)
 
 - [Installation](#installation)
 - [Usage](#usage)
