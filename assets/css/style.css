@@ -31,11 +31,11 @@ h1 {
 }
 
 h2 { 
-  display: inline-block;
+  display: inline-flex;
   font-size: 40px; 
   padding: 10px 15px;  
   margin: 1px;
-  text-align: left;
+  text-align: right;
 }
 
 .header nav {
@@ -90,6 +90,8 @@ h2 {
 }
 
 .dim {
+  height: 200px;
+  width: auto;
   opacity: 0.5}
 
 .dim:hover {
@@ -97,7 +99,7 @@ h2 {
 }
 
 .row {
-  display: flex;
+  display: inline;
   flex-wrap: wrap;
   flex-direction: row;
   margin-left: -1.5rem;
@@ -106,7 +108,7 @@ h2 {
 
 .card {
   flex: 1 0 100%;
-  display: inline-flex;
+  display: inline-flexbox;
   padding: 1.5rem;
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
@@ -115,6 +117,7 @@ h2 {
   gap: 10px 20px; /* row-gap column gap */
   row-gap: 10px;
   column-gap: 20px;
+  align-items: stretch;
   margin-left: 500px;
 }
 
@@ -173,9 +176,11 @@ p {
 
 aside {
   flex: 1;
+  flex-wrap: wrap;
   background-color: #bec2dc;
-  padding: 80px;
+  padding: 20px;
   text-align: left;
+  border-right: #000000;
   border-right-width: 10px;
 }
 
@@ -184,6 +189,7 @@ aside {
   background-color: transparent;
   text-decoration: thick underline;
   border-bottom: 5px #000000;
+  margin-bottom: 5px;
 }
 
 .bottomnav :visited {
