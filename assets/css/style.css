@@ -108,13 +108,13 @@ h2 {
 
 .card {
   flex: 1 0 100%;
-  display: inline-flexbox;
+  display: inline-flex;
   padding: 1.5rem;
   transition: flex-basis 500ms linear;
   margin-bottom: 1.5rem;
   border: 100px;
   gap: 10px;
-  gap: 10px 20px; /* row-gap column gap */
+  gap: 10px 20px;
   row-gap: 10px;
   column-gap: 20px;
   align-items: stretch;
@@ -171,7 +171,8 @@ h2 {
 
 
 p {
-  margin-top: -125px;
+  margin-top: -75px;
+  padding-right: 50px;
 }
 
 aside {
@@ -208,4 +209,18 @@ aside {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.inlinepic {
+  display:inline
+}
+
+.wrapper {
+  display: inline-grid;
+  grid-gap: 10px;
+  margin-top: -150px;
+}
+
+.footerContact {
+  margin-left: 200px;
 }
